@@ -1,11 +1,11 @@
 import './App.css'
+import {createBrouserRouter, RouterProvider} from 'React-router-dom'
+import { RouterApp } from './routes/RouterApp'
 
 function App() {
  
   return (
-    <section>
-      
-    </section>
+    <RouterProvider router={createBrouserRouter(RouterApp)} />
   )
 }
 
