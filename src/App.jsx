@@ -1,12 +1,11 @@
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import './App.css'
-
+import { RouterApp } from './routes/RouterApp'
 function App() {
  
   return (
-    <section>
-      
-    </section>
+    <RouterProvider router={createBrowserRouter(RouterApp)}/>
   )
 }
 
-export default App
+export default App;
