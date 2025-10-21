@@ -1,0 +1,6 @@
+/* Estilos para el componente Header */
+.header {
+  padding: 1rem;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
