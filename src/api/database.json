@@ -1,0 +1,273 @@
+{
+    "usuarios": [
+        {
+            "id": "u-1a2b3c4d",
+            "nombre": "María González",
+            "email": "maria.gonzalez@empresa.com",
+            "rol": "admin",
+            "telefono": "+34 600 123 456",
+            "createdAt": "2024-02-10T09:15:00Z"
+        },
+        {
+            "id": "u-5e6f7g8h",
+            "nombre": "Carlos Ruiz",
+            "email": "carlos.ruiz@empresa.com",
+            "rol": "reclutador",
+            "telefono": "+34 600 987 654",
+            "createdAt": "2024-06-01T11:30:00Z"
+        },
+        {
+            "id": "u-9i0j1k2l",
+            "nombre": "Ana Pérez",
+            "email": "ana.perez@empresa.com",
+            "rol": "reclutador",
+            "telefono": "+34 600 222 333",
+            "createdAt": "2024-08-15T08:45:00Z"
+        },
+        {
+            "id": "u-3m4n5o6p",
+            "nombre": "Cliente Demo",
+            "email": "cliente@demo.com",
+            "rol": "usuario",
+            "telefono": "+34 600 444 555",
+            "createdAt": "2025-01-05T10:00:00Z"
+        },
+        {
+            "id": "u-7q8r9s0t",
+            "nombre": "Soporte",
+            "email": "soporte@empresa.com",
+            "rol": "usuario",
+            "telefono": "+34 600 777 888",
+            "createdAt": "2025-03-20T16:20:00Z"
+        }
+    ],
+    
+    "vacantes": [
+        {
+            "id": "v-001",
+            "titulo": "Desarrollador/a Frontend (React)",
+            "descripcion": "Desarrollo de aplicaciones web usando React, Redux y TypeScript. Trabajo en equipo ágil.",
+            "empresa": "Tech Solutions SL",
+            "ubicacion": "Madrid, España (Híbrido)",
+            "modalidad": "Híbrido",
+            "nivel": "Senior",
+            "salario": "40.000-55.000 EUR",
+            "habilidades": ["React", "TypeScript", "Redux", "CSS", "HTML"],
+            "beneficios": ["Seguro médico", "Flexibilidad horaria", "Formación"],
+            "fechaPublicacion": "2025-09-01T09:00:00Z",
+            "estado": "publicada"
+        },
+        {
+            "id": "v-002",
+            "titulo": "Ingeniero/a de Datos",
+            "descripcion": "Diseño y mantenimiento de pipelines de datos, ETL y modelado en la nube.",
+            "empresa": "DataCorp",
+            "ubicacion": "Barcelona, España (Remoto)",
+            "modalidad": "Remoto",
+            "nivel": "Medio",
+            "salario": "35.000-48.000 EUR",
+            "habilidades": ["Python", "Airflow", "SQL", "AWS"],
+            "beneficios": ["Remote-first", "Stock options", "Bonos"],
+            "fechaPublicacion": "2025-08-20T10:30:00Z",
+            "estado": "publicada"
+        },
+        {
+            "id": "v-003",
+            "titulo": "Product Manager",
+            "descripcion": "Liderar roadmap de producto, coordinación con equipos técnicos y negocio.",
+            "empresa": "Innovatech",
+            "ubicacion": "Sevilla, España (Oficina)",
+            "modalidad": "Presencial",
+            "nivel": "Senior",
+            "salario": "45.000-65.000 EUR",
+            "habilidades": ["Gestión de producto", "Comunicación", "Agile"],
+            "beneficios": ["Plan de pensiones", "Comedor", "Cursos"],
+            "fechaPublicacion": "2025-07-10T12:00:00Z",
+            "estado": "cerrada"
+        },
+        {
+            "id": "v-004",
+            "titulo": "QA Automation Engineer",
+            "descripcion": "Automatización de pruebas end-to-end y unitarias, integración continua.",
+            "empresa": "SoftLab",
+            "ubicacion": "Valencia, España (Híbrido)",
+            "modalidad": "Híbrido",
+            "nivel": "Medio",
+            "salario": "30.000-40.000 EUR",
+            "habilidades": ["Selenium", "JavaScript", "Cypress", "CI/CD"],
+            "beneficios": ["Horario flexible", "Seguro dental"],
+            "fechaPublicacion": "2025-09-15T08:00:00Z",
+            "estado": "publicada"
+        },
+        {
+            "id": "v-005",
+            "titulo": "Diseñador/a UX/UI",
+            "descripcion": "Diseño de interfaces, prototipado y pruebas con usuarios.",
+            "empresa": "Creativa Studio",
+            "ubicacion": "Bilbao, España (Remoto)",
+            "modalidad": "Remoto",
+            "nivel": "Junior",
+            "salario": "22.000-30.000 EUR",
+            "habilidades": ["Figma", "Prototipos", "Investigación UX"],
+            "beneficios": ["Horas de trabajo flexibles", "Mentoría"],
+            "fechaPublicacion": "2025-10-01T09:30:00Z",
+            "estado": "publicada"
+        },
+        {
+            "id": "v-006",
+            "titulo": "Analista Business Intelligence",
+            "descripcion": "Creación de informes y dashboards, análisis de KPIs y soporte a la toma de decisiones.",
+            "empresa": "RetailAnalytics",
+            "ubicacion": "Madrid, España (Oficina)",
+            "modalidad": "Presencial",
+            "nivel": "Medio",
+            "salario": "33.000-45.000 EUR",
+            "habilidades": ["Power BI", "SQL", "Excel avanzado"],
+            "beneficios": ["Ticket restaurante", "Seguro médico"],
+            "fechaPublicacion": "2025-09-25T11:10:00Z",
+            "estado": "publicada"
+        }
+    ],
+
+    "candidatos": [
+        {
+            "id": "c-1001",
+            "nombre": "Luis Fernández",
+            "email": "luis.fernandez@example.com",
+            "telefono": "+34 600 111 222",
+            "ubicacion": "Madrid",
+            "experienciaAnios": 4,
+            "habilidades": ["React", "JavaScript", "TypeScript", "HTML", "CSS"],
+            "cvUrl": "https://storage.example.com/cvs/luis_fernandez.pdf",
+            "estado": "activo",
+            "linkedIn": "https://www.linkedin.com/in/luis-fernandez"
+        },
+        {
+            "id": "c-1002",
+            "nombre": "Sofía Martínez",
+            "email": "sofia.martinez@example.com",
+            "telefono": "+34 600 333 444",
+            "ubicacion": "Barcelona",
+            "experienciaAnios": 6,
+            "habilidades": ["Python", "Airflow", "SQL", "AWS"],
+            "cvUrl": "https://storage.example.com/cvs/sofia_martinez.pdf",
+            "estado": "activo",
+            "linkedIn": "https://www.linkedin.com/in/sofia-martinez"
+        },
+        {
+            "id": "c-1003",
+            "nombre": "Miguel Torres",
+            "email": "miguel.torres@example.com",
+            "telefono": "+34 600 555 666",
+            "ubicacion": "Sevilla",
+            "experienciaAnios": 8,
+            "habilidades": ["Product Management", "Agile", "Roadmap"],
+            "cvUrl": "https://storage.example.com/cvs/miguel_torres.pdf",
+            "estado": "inactivo",
+            "linkedIn": "https://www.linkedin.com/in/miguel-torres"
+        },
+        {
+            "id": "c-1004",
+            "nombre": "Elena Ruiz",
+            "email": "elena.ruiz@example.com",
+            "telefono": "+34 600 777 888",
+            "ubicacion": "Valencia",
+            "experienciaAnios": 3,
+            "habilidades": ["Cypress", "Selenium", "JavaScript", "CI/CD"],
+            "cvUrl": "https://storage.example.com/cvs/elena_ruiz.pdf",
+            "estado": "activo",
+            "linkedIn": "https://www.linkedin.com/in/elena-ruiz"
+        },
+        {
+            "id": "c-1005",
+            "nombre": "Andrés López",
+            "email": "andres.lopez@example.com",
+            "telefono": "+34 600 999 000",
+            "ubicacion": "Bilbao",
+            "experienciaAnios": 1,
+            "habilidades": ["Figma", "Prototipado", "Investigación UX"],
+            "cvUrl": "https://storage.example.com/cvs/andres_lopez.pdf",
+            "estado": "activo",
+            "linkedIn": "https://www.linkedin.com/in/andres-lopez"
+        },
+        {
+            "id": "c-1006",
+            "nombre": "Isabel Navarro",
+            "email": "isabel.navarro@example.com",
+            "telefono": "+34 600 121 314",
+            "ubicacion": "Madrid",
+            "experienciaAnios": 5,
+            "habilidades": ["Power BI", "SQL", "Excel avanzado"],
+            "cvUrl": "https://storage.example.com/cvs/isabel_navarro.pdf",
+            "estado": "activo",
+            "linkedIn": "https://www.linkedin.com/in/isabel-navarro"
+        }
+    ],
+
+    "postulaciones": [
+        {
+            "id": "p-9001",
+            "vacanteId": "v-001",
+            "candidatoId": "c-1001",
+            "fechaPostulacion": "2025-09-02T14:20:00Z",
+            "estado": "en revisión",
+            "notas": "Buen ajuste técnico; revisar soft skills en entrevista."
+        },
+        {
+            "id": "p-9002",
+            "vacanteId": "v-002",
+            "candidatoId": "c-1002",
+            "fechaPostulacion": "2025-08-21T09:45:00Z",
+            "estado": "en entrevista",
+            "notas": "Experiencia sólida en pipelines; entrevista técnica agendada."
+        },
+        {
+            "id": "p-9003",
+            "vacanteId": "v-003",
+            "candidatoId": "c-1003",
+            "fechaPostulacion": "2025-07-11T10:00:00Z",
+            "estado": "rechazada",
+            "notas": "Posición cerrada — candidato altamente cualificado pero oferta no disponible."
+        },
+        {
+            "id": "p-9004",
+            "vacanteId": "v-004",
+            "candidatoId": "c-1004",
+            "fechaPostulacion": "2025-09-16T08:30:00Z",
+            "estado": "recibida",
+            "notas": "Automatización con experiencia; pendiente preselección."
+        },
+        {
+            "id": "p-9005",
+            "vacanteId": "v-005",
+            "candidatoId": "c-1005",
+            "fechaPostulacion": "2025-10-02T11:15:00Z",
+            "estado": "en revisión",
+            "notas": "Portafolio interesante; solicitar prueba de diseño."
+        },
+        {
+            "id": "p-9006",
+            "vacanteId": "v-006",
+            "candidatoId": "c-1006",
+            "fechaPostulacion": "2025-09-26T13:00:00Z",
+            "estado": "en entrevista",
+            "notas": "Buena experiencia en BI; entrevista con hiring manager programada."
+        },
+        {
+            "id": "p-9007",
+            "vacanteId": "v-001",
+            "candidatoId": "c-1004",
+            "fechaPostulacion": "2025-09-05T15:40:00Z",
+            "estado": "rechazada",
+            "notas": "Perfil más orientado a QA; no cumple requisito mínimo de experiencia frontend."
+        },
+        {
+            "id": "p-9008",
+            "vacanteId": "v-002",
+            "candidatoId": "c-1006",
+            "fechaPostulacion": "2025-08-30T10:20:00Z",
+            "estado": "recibida",
+            "notas": "Interesado en reconversión a datos; pendiente evaluación técnica."
+        }
+    ]
+}
