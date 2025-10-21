@@ -1,0 +1,771 @@
+{
+  "usuarios": [
+    {
+      "nombre": "Ana García",
+      "contraseña": "pass12345",
+      "correo": "ana.garcia@email.com",
+      "id": "USR000A1",
+      "rol": "candidato"
+    },
+    {
+      "nombre": "Bruno Fernández",
+      "contraseña": "pass12345",
+      "correo": "bruno.f@email.com",
+      "id": "USR000B2",
+      "rol": "candidato"
+    },
+    {
+      "nombre": "Carla Díaz",
+      "contraseña": "pass12345",
+      "correo": "carla.diaz@email.com",
+      "id": "USR000C3",
+      "rol": "candidato"
+    },
+    {
+      "nombre": "David Mendoza",
+      "contraseña": "pass12345",
+      "correo": "david.m@email.com",
+      "id": "USR000D4",
+      "rol": "candidato"
+    },
+    {
+      "nombre": "Elena Castillo",
+      "contraseña": "pass12345",
+      "correo": "elena.c@email.com",
+      "id": "USR000E5",
+      "rol": "candidato"
+    },
+    {
+      "nombre": "Felipe Torres",
+      "contraseña": "pass12345",
+      "correo": "felipe.t@email.com",
+      "id": "USR000F6",
+      "rol": "candidato"
+    },
+    {
+      "nombre": "Gabriela Ruiz",
+      "contraseña": "pass12345",
+      "correo": "gabi.ruiz@email.com",
+      "id": "USR000G7",
+      "rol": "candidato"
+    },
+    {
+      "nombre": "Hugo Navarro",
+      "contraseña": "pass12345",
+      "correo": "hugo.n@email.com",
+      "id": "USR000H8",
+      "rol": "candidato"
+    },
+    {
+      "nombre": "Inés Morales",
+      "contraseña": "pass12345",
+      "correo": "ines.m@email.com",
+      "id": "USR000I9",
+      "rol": "candidato"
+    },
+    {
+      "nombre": "Javier Solís",
+      "contraseña": "pass12345",
+      "correo": "javier.s@email.com",
+      "id": "USR000J0",
+      "rol": "candidato"
+    },
+    {
+      "nombre": "Karla Ponce",
+      "contraseña": "pass12345",
+      "correo": "karla.p@email.com",
+      "id": "USR000K1",
+      "rol": "candidato"
+    },
+    {
+      "nombre": "Luis Vargas",
+      "contraseña": "pass12345",
+      "correo": "luis.v@email.com",
+      "id": "USR000L2",
+      "rol": "candidato"
+    },
+    {
+      "nombre": "Marta Herrera",
+      "contraseña": "pass12345",
+      "correo": "marta.h@email.com",
+      "id": "USR000M3",
+      "rol": "candidato"
+    },
+    {
+      "nombre": "Nelson Silva",
+      "contraseña": "pass12345",
+      "correo": "nelson.s@email.com",
+      "id": "USR000N4",
+      "rol": "candidato"
+    },
+    {
+      "nombre": "Olga Paredes",
+      "contraseña": "pass12345",
+      "correo": "olga.p@email.com",
+      "id": "USR000O5",
+      "rol": "candidato"
+    },
+    {
+      "nombre": "Admin General",
+      "contraseña": "adminPass1",
+      "correo": "admin@empresa.com",
+      "id": "ADM100A1",
+      "rol": "admin"
+    },
+    {
+      "nombre": "Reclutador TI",
+      "contraseña": "adminPass2",
+      "correo": "rrhh.ti@empresa.com",
+      "id": "ADM100A2",
+      "rol": "admin"
+    },
+    {
+      "nombre": "Admin Finanzas",
+      "contraseña": "adminPass3",
+      "correo": "finanzas@empresa.com",
+      "id": "ADM100A3",
+      "rol": "admin"
+    }
+  ],
+  "vacantes": [
+    {
+      "id": "VAC00001",
+      "descripcion": "Desarrollador Frontend con experiencia en React y TypeScript.",
+      "salario": 50000,
+      "fecha_maxima_postulacion": "2025-11-30",
+      "fecha_publicacion": "2025-10-20",
+      "puesto": "Frontend Developer Sr.",
+      "requisitos": "React, TypeScript, Redux, 5+ años exp."
+    },
+    {
+      "id": "VAC00002",
+      "descripcion": "Desarrollador Backend especialista en Node.js y microservicios.",
+      "salario": 55000,
+      "fecha_maxima_postulacion": "2025-11-25",
+      "fecha_publicacion": "2025-10-15",
+      "puesto": "Backend Developer Sr.",
+      "requisitos": "Node.js, Express, AWS, Microservicios, 5+ años exp."
+    },
+    {
+      "id": "VAC00003",
+      "descripcion": "QA Automatizador para pruebas funcionales y de rendimiento.",
+      "salario": 40000,
+      "fecha_maxima_postulacion": "2025-12-01",
+      "fecha_publicacion": "2025-10-21",
+      "puesto": "QA Automation Engineer",
+      "requisitos": "Selenium, Cypress, Jest, 3+ años exp."
+    },
+    {
+      "id": "VAC00004",
+      "descripcion": "Diseñador UI/UX enfocado en aplicaciones móviles.",
+      "salario": 42000,
+      "fecha_maxima_postulacion": "2025-11-15",
+      "fecha_publicacion": "2025-10-10",
+      "puesto": "UI/UX Designer",
+      "requisitos": "Figma, Sketch, Adobe XD, 3+ años exp."
+    },
+    {
+      "id": "VAC00005",
+      "descripcion": "Project Manager con metodologías ágiles (Scrum/Kanban).",
+      "salario": 60000,
+      "fecha_maxima_postulacion": "2025-11-20",
+      "fecha_publicacion": "2025-10-12",
+      "puesto": "Project Manager",
+      "requisitos": "Scrum Master Cert., Jira, 4+ años exp."
+    },
+    {
+      "id": "VAC00006",
+      "descripcion": "Analista de Datos Jr. para equipo de Business Intelligence.",
+      "salario": 30000,
+      "fecha_maxima_postulacion": "2025-12-05",
+      "fecha_publicacion": "2025-10-21",
+      "puesto": "Data Analyst Jr.",
+      "requisitos": "SQL, Power BI, Excel avanzado, 1+ años exp."
+    },
+    {
+      "id": "VAC00007",
+      "descripcion": "DevOps Engineer para gestión de infraestructura en Azure.",
+      "salario": 65000,
+      "fecha_maxima_postulacion": "2025-11-30",
+      "fecha_publicacion": "2025-10-20",
+      "puesto": "DevOps Engineer Sr.",
+      "requisitos": "Azure, Kubernetes, Terraform, CI/CD, 5+ años exp."
+    },
+    {
+      "id": "VAC00008",
+      "descripcion": "Desarrollador Frontend Jr. con conocimientos en Angular.",
+      "salario": 28000,
+      "fecha_maxima_postulacion": "2025-11-18",
+      "fecha_publicacion": "2025-10-18",
+      "puesto": "Frontend Developer Jr.",
+      "requisitos": "Angular, JavaScript, HTML, CSS, 1+ años exp."
+    },
+    {
+      "id": "VAC00009",
+      "descripcion": "Especialista en Ciberseguridad (Analista SOC).",
+      "salario": 58000,
+      "fecha_maxima_postulacion": "2025-11-22",
+      "fecha_publicacion": "2025-10-17",
+      "puesto": "Analista SOC",
+      "requisitos": "SIEM, Penetration Testing, 4+ años exp."
+    },
+    {
+      "id": "VAC00010",
+      "descripcion": "Desarrollador Backend Jr. con Java y Spring Boot.",
+      "salario": 32000,
+      "fecha_maxima_postulacion": "2025-12-01",
+      "fecha_publicacion": "2025-10-21",
+      "puesto": "Java Developer Jr.",
+      "requisitos": "Java, Spring Boot, SQL, 1-2 años exp."
+    },
+    {
+      "id": "VAC00011",
+      "descripcion": "Desarrollador Fullstack (MERN) para proyecto nuevo.",
+      "salario": 48000,
+      "fecha_maxima_postulacion": "2025-11-28",
+      "fecha_publicacion": "2025-10-19",
+      "puesto": "Fullstack Developer",
+      "requisitos": "MongoDB, Express, React, Node.js, 3+ años exp."
+    },
+    {
+      "id": "VAC00012",
+      "descripcion": "Soporte Técnico Nivel 2 (Bilingüe).",
+      "salario": 25000,
+      "fecha_maxima_postulacion": "2025-11-15",
+      "fecha_publicacion": "2025-10-10",
+      "puesto": "Soporte Técnico L2",
+      "requisitos": "Redes, SO, Inglés B2, 2+ años exp."
+    },
+    {
+      "id": "VAC00013",
+      "descripcion": "Arquitecto de Soluciones Cloud (AWS).",
+      "salario": 75000,
+      "fecha_maxima_postulacion": "2025-11-30",
+      "fecha_publicacion": "2025-10-20",
+      "puesto": "Cloud Architect",
+      "requisitos": "AWS (Certificado), 7+ años exp."
+    },
+    {
+      "id": "VAC00014",
+      "descripcion": "Desarrollador Móvil (iOS) Nativo.",
+      "salario": 52000,
+      "fecha_maxima_postulacion": "2025-11-20",
+      "fecha_publicacion": "2025-10-15",
+      "puesto": "iOS Developer",
+      "requisitos": "Swift, UIKit, 4+ años exp."
+    },
+    {
+      "id": "VAC00015",
+      "descripcion": "Desarrollador Móvil (Android) Nativo.",
+      "salario": 52000,
+      "fecha_maxima_postulacion": "2025-11-20",
+      "fecha_publicacion": "2025-10-15",
+      "puesto": "Android Developer",
+      "requisitos": "Kotlin, Jetpack Compose, 4+ años exp."
+    },
+    {
+      "id": "VAC00016",
+      "descripcion": "Analista Funcional para sector bancario.",
+      "salario": 45000,
+      "fecha_maxima_postulacion": "2025-11-25",
+      "fecha_publicacion": "2025-10-18",
+      "puesto": "Analista Funcional",
+      "requisitos": "Casos de Uso, UML, SQL, 3+ años exp."
+    },
+    {
+      "id": "VAC00017",
+      "descripcion": "Desarrollador Python (Data Engineering).",
+      "salario": 53000,
+      "fecha_maxima_postulacion": "2025-12-01",
+      "fecha_publicacion": "2025-10-21",
+      "puesto": "Data Engineer",
+      "requisitos": "Python, Spark, Airflow, 3+ años exp."
+    },
+    {
+      "id": "VAC00018",
+      "descripcion": "Diseñador Gráfico para Marketing Digital.",
+      "salario": 30000,
+      "fecha_maxima_postulacion": "2025-11-15",
+      "fecha_publicacion": "2025-10-13",
+      "puesto": "Diseñador Gráfico",
+      "requisitos": "Photoshop, Illustrator, 2+ años exp."
+    },
+    {
+      "id": "VAC00019",
+      "descripcion": "Scrum Master para múltiples equipos.",
+      "salario": 55000,
+      "fecha_maxima_postulacion": "2025-11-30",
+      "fecha_publicacion": "2025-10-20",
+      "puesto": "Scrum Master",
+      "requisitos": "Certificación PSM o CSM, 3+ años exp."
+    },
+    {
+      "id": "VAC00020",
+      "descripcion": "Desarrollador .NET Sr.",
+      "salario": 54000,
+      "fecha_maxima_postulacion": "2025-11-25",
+      "fecha_publicacion": "2025-10-19",
+      "puesto": ".NET Developer Sr.",
+      "requisitos": "C#, .NET Core, SQL Server, 5+ años exp."
+    }
+  ],
+  "postulaciones": [
+    {
+      "id_postulante": "USR000A1",
+      "id_vacante": "VAC00001",
+      "estado": "inscrito",
+      "observaciones": "Cumple con React y TS.",
+      "id": "POS00001"
+    },
+    {
+      "id_postulante": "USR000A1",
+      "id_vacante": "VAC00008",
+      "estado": "inscrito",
+      "observaciones": "Interesada en Front Jr.",
+      "id": "POS00002"
+    },
+    {
+      "id_postulante": "USR000A1",
+      "id_vacante": "VAC00011",
+      "estado": "inscrito",
+      "observaciones": "Aplica a Fullstack.",
+      "id": "POS00003"
+    },
+    {
+      "id_postulante": "USR000B2",
+      "id_vacante": "VAC00002",
+      "estado": "contratado",
+      "observaciones": "Excelente perfil en Node.js.",
+      "id": "POS00004"
+    },
+    {
+      "id_postulante": "USR000B2",
+      "id_vacante": "VAC00007",
+      "estado": "descartado",
+      "observaciones": "Prefiere AWS sobre Azure.",
+      "id": "POS00005"
+    },
+    {
+      "id_postulante": "USR000B2",
+      "id_vacante": "VAC00017",
+      "estado": "inscrito",
+      "observaciones": "Aplica a Data Engineer.",
+      "id": "POS00006"
+    },
+    {
+      "id_postulante": "USR000C3",
+      "id_vacante": "VAC00003",
+      "estado": "inscrito",
+      "observaciones": "Experiencia en Cypress.",
+      "id": "POS00007"
+    },
+    {
+      "id_postulante": "USR000C3",
+      "id_vacante": "VAC00016",
+      "estado": "inscrito",
+      "observaciones": "Interesada en Analista Funcional.",
+      "id": "POS00008"
+    },
+    {
+      "id_postulante": "USR000D4",
+      "id_vacante": "VAC00004",
+      "estado": "descartado",
+      "observaciones": "Portafolio no cumple expectativas.",
+      "id": "POS00009"
+    },
+    {
+      "id_postulante": "USR000D4",
+      "id_vacante": "VAC00018",
+      "estado": "inscrito",
+      "observaciones": "Aplica a Diseño Gráfico.",
+      "id": "POS00010"
+    },
+    {
+      "id_postulante": "USR000E5",
+      "id_vacante": "VAC00005",
+      "estado": "inscrito",
+      "observaciones": "Certificada Scrum Master.",
+      "id": "POS00011"
+    },
+    {
+      "id_postulante": "USR000E5",
+      "id_vacante": "VAC00019",
+      "estado": "inscrito",
+      "observaciones": "Aplica a Scrum Master.",
+      "id": "POS00012"
+    },
+    {
+      "id_postulante": "USR000F6",
+      "id_vacante": "VAC00006",
+      "estado": "contratado",
+      "observaciones": "Buen manejo de Power BI.",
+      "id": "POS00013"
+    },
+    {
+      "id_postulante": "USR000G7",
+      "id_vacante": "VAC00007",
+      "estado": "inscrito",
+      "observaciones": "Fuerte en Azure.",
+      "id": "POS00014"
+    },
+    {
+      "id_postulante": "USR000G7",
+      "id_vacante": "VAC00013",
+      "estado": "inscrito",
+      "observaciones": "Interesada en Arquitectura.",
+      "id": "POS00015"
+    },
+    {
+      "id_postulante": "USR000H8",
+      "id_vacante": "VAC00008",
+      "estado": "inscrito",
+      "observaciones": "Conocimientos en Angular.",
+      "id": "POS00016"
+    },
+    {
+      "id_postulante": "USR000H8",
+      "id_vacante": "VAC00001",
+      "estado": "descartado",
+      "observaciones": "No cumple perfil Sr.",
+      "id": "POS00017"
+    },
+    {
+      "id_postulante": "USR000I9",
+      "id_vacante": "VAC00009",
+      "estado": "inscrito",
+      "observaciones": "Experiencia en SIEM.",
+      "id": "POS00018"
+    },
+    {
+      "id_postulante": "USR000J0",
+      "id_vacante": "VAC00010",
+      "estado": "inscrito",
+      "observaciones": "Experiencia en Spring Boot.",
+      "id": "POS00019"
+    },
+    {
+      "id_postulante": "USR000J0",
+      "id_vacante": "VAC00002",
+      "estado": "inscrito",
+      "observaciones": "Interesado en Backend.",
+      "id": "POS00020"
+    },
+    {
+      "id_postulante": "USR000K1",
+      "id_vacante": "VAC00011",
+      "estado": "inscrito",
+      "observaciones": "Perfil MERN.",
+      "id": "POS00021"
+    },
+    {
+      "id_postulante": "USR000K1",
+      "id_vacante": "VAC00001",
+      "estado": "inscrito",
+      "observaciones": "Interesada en Front Sr.",
+      "id": "POS00022"
+    },
+    {
+      "id_postulante": "USR000L2",
+      "id_vacante": "VAC00012",
+      "estado": "descartado",
+      "observaciones": "Nivel de inglés B1.",
+      "id": "POS00023"
+    },
+    {
+      "id_postulante": "USR000M3",
+      "id_vacante": "VAC00013",
+      "estado": "inscrito",
+      "observaciones": "Certificada AWS Architect.",
+      "id": "POS00024"
+    },
+    {
+      "id_postulante": "USR000M3",
+      "id_vacante": "VAC00007",
+      "estado": "inscrito",
+      "observaciones": "Interesada en DevOps.",
+      "id": "POS00025"
+    },
+    {
+      "id_postulante": "USR000N4",
+      "id_vacante": "VAC00014",
+      "estado": "contratado",
+      "observaciones": "Fuerte en Swift.",
+      "id": "POS00026"
+    },
+    {
+      "id_postulante": "USR000O5",
+      "id_vacante": "VAC00015",
+      "estado": "inscrito",
+      "observaciones": "Experiencia en Kotlin.",
+      "id": "POS00027"
+    },
+    {
+      "id_postulante": "USR000A1",
+      "id_vacante": "VAC00004",
+      "estado": "inscrito",
+      "observaciones": "Interés en UI/UX.",
+      "id": "POS00028"
+    },
+    {
+      "id_postulante": "USR000B2",
+      "id_vacante": "VAC00010",
+      "estado": "descartado",
+      "observaciones": "Prefiere Node sobre Java.",
+      "id": "POS00029"
+    },
+    {
+      "id_postulante": "USR000C3",
+      "id_vacante": "VAC00001",
+      "estado": "inscrito",
+      "observaciones": "Aplica a Front Sr.",
+      "id": "POS00030"
+    },
+    {
+      "id_postulante": "USR000D4",
+      "id_vacante": "VAC00005",
+      "estado": "inscrito",
+      "observaciones": "Aplica a PM.",
+      "id": "POS00031"
+    },
+    {
+      "id_postulante": "USR000E5",
+      "id_vacante": "VAC00006",
+      "estado": "inscrito",
+      "observaciones": "Interés en Data.",
+      "id": "POS00032"
+    },
+    {
+      "id_postulante": "USR000F6",
+      "id_vacante": "VAC00011",
+      "estado": "inscrito",
+      "observaciones": "Aplica a Fullstack.",
+      "id": "POS00033"
+    },
+    {
+      "id_postulante": "USR000G7",
+      "id_vacante": "VAC00002",
+      "estado": "inscrito",
+      "observaciones": "Interés en Backend.",
+      "id": "POS00034"
+    },
+    {
+      "id_postulante": "USR000H8",
+      "id_vacante": "VAC00012",
+      "estado": "inscrito",
+      "observaciones": "Aplica a Soporte.",
+      "id": "POS00035"
+    },
+    {
+      "id_postulante": "USR000I9",
+      "id_vacante": "VAC00007",
+      "estado": "inscrito",
+      "observaciones": "Interés en DevOps.",
+      "id": "POS00036"
+    },
+    {
+      "id_postulante": "USR000J0",
+      "id_vacante": "VAC00020",
+      "estado": "inscrito",
+      "observaciones": "Experiencia en .NET.",
+      "id": "POS00037"
+    },
+    {
+      "id_postulante": "USR000K1",
+      "id_vacante": "VAC00002",
+      "estado": "inscrito",
+      "observaciones": "Aplica a Backend Sr.",
+      "id": "POS00038"
+    },
+    {
+      "id_postulante": "USR000L2",
+      "id_vacante": "VAC00003",
+      "estado": "inscrito",
+      "observaciones": "Interés en QA.",
+      "id": "POS00039"
+    },
+    {
+      "id_postulante": "USR000M3",
+      "id_vacante": "VAC00009",
+      "estado": "descartado",
+      "observaciones": "Prefiere Cloud sobre Seguridad.",
+      "id": "POS00040"
+    },
+    {
+      "id_postulante": "USR000N4",
+      "id_vacante": "VAC00015",
+      "estado": "descartado",
+      "observaciones": "No tiene experiencia en Android.",
+      "id": "POS00041"
+    },
+    {
+      "id_postulante": "USR000O5",
+      "id_vacante": "VAC00014",
+      "estado": "descartado",
+      "observaciones": "No tiene experiencia en iOS.",
+      "id": "POS00042"
+    },
+    {
+      "id_postulante": "USR000A1",
+      "id_vacante": "VAC00016",
+      "estado": "inscrito",
+      "observaciones": "Interés en Analista Funcional.",
+      "id": "POS00043"
+    },
+    {
+      "id_postulante": "USR000B2",
+      "id_vacante": "VAC00011",
+      "estado": "inscrito",
+      "observaciones": "Aplica a Fullstack.",
+      "id": "POS00044"
+    },
+    {
+      "id_postulante": "USR000C3",
+      "id_vacante": "VAC00012",
+      "estado": "inscrito",
+      "observaciones": "Aplica a Soporte.",
+      "id": "POS00045"
+    },
+    {
+      "id_postulante": "USR000D4",
+      "id_vacante": "VAC00001",
+      "estado": "inscrito",
+      "observaciones": "Interés en Front.",
+      "id": "POS00046"
+    },
+    {
+      "id_postulante": "USR000E5",
+      "id_vacante": "VAC00002",
+      "estado": "descartado",
+      "observaciones": "Perfil de PM, no técnico.",
+      "id": "POS00047"
+    },
+    {
+      "id_postulante": "USR000F6",
+      "id_vacante": "VAC00017",
+      "estado": "inscrito",
+      "observaciones": "Aplica a Data Engineer.",
+      "id": "POS00048"
+    },
+    {
+      "id_postulante": "USR000G7",
+      "id_vacante": "VAC00020",
+      "estado": "inscrito",
+      "observaciones": "Interés en .NET.",
+      "id": "POS00049"
+    },
+    {
+      "id_postulante": "USR000H8",
+      "id_vacante": "VAC00010",
+      "estado": "inscrito",
+      "observaciones": "Aplica a Java Jr.",
+      "id": "POS00050"
+    }
+  ],
+  "candidatos": [
+    {
+      "id_usuario": "USR000A1",
+      "direccion": "Calle Falsa 123",
+      "telefono": "555-1111",
+      "experiencia": "5 años en Frontend",
+      "edad": 30
+    },
+    {
+      "id_usuario": "USR000B2",
+      "direccion": "Avenida Siempre Viva 456",
+      "telefono": "555-2222",
+      "experiencia": "6 años en Backend (Node.js)",
+      "edad": 32
+    },
+    {
+      "id_usuario": "USR000C3",
+      "direccion": "Boulevard de los Sueños 789",
+      "telefono": "555-3333",
+      "experiencia": "4 años en QA Automation",
+      "edad": 28
+    },
+    {
+      "id_usuario": "USR000D4",
+      "direccion": "Calle Luna 101",
+      "telefono": "555-4444",
+      "experiencia": "3 años en UI/UX",
+      "edad": 27
+    },
+    {
+      "id_usuario": "USR000E5",
+      "direccion": "Avenida Sol 202",
+      "telefono": "555-5555",
+      "experiencia": "7 años en Project Management",
+      "edad": 35
+    },
+    {
+      "id_usuario": "USR000F6",
+      "direccion": "Calle Mar 303",
+      "telefono": "555-6666",
+      "experiencia": "1 año en Data Analysis",
+      "edad": 23
+    },
+    {
+      "id_usuario": "USR000G7",
+      "direccion": "Avenida Norte 404",
+      "telefono": "555-7777",
+      "experiencia": "8 años en DevOps (Azure/AWS)",
+      "edad": 38
+    },
+    {
+      "id_usuario": "USR000H8",
+      "direccion": "Calle Sur 505",
+      "telefono": "555-8888",
+      "experiencia": "1 año en Frontend (Angular)",
+      "edad": 24
+    },
+    {
+      "id_usuario": "USR000I9",
+      "direccion": "Avenida Este 606",
+      "telefono": "555-9999",
+      "experiencia": "5 años en Ciberseguridad",
+      "edad": 31
+    },
+    {
+      "id_usuario": "USR000J0",
+      "direccion": "Calle Oeste 707",
+      "telefono": "555-1010",
+      "experiencia": "2 años en Backend (Java)",
+      "edad": 25
+    },
+    {
+      "id_usuario": "USR000K1",
+      "direccion": "Plaza Central 808",
+      "telefono": "555-1212",
+      "experiencia": "4 años en Fullstack (MERN)",
+      "edad": 29
+    },
+    {
+      "id_usuario": "USR000L2",
+      "direccion": "Parque del Río 909",
+      "telefono": "555-1313",
+      "experiencia": "3 años en Soporte Técnico",
+      "edad": 26
+    },
+    {
+      "id_usuario": "USR000M3",
+      "direccion": "Calle Alta 111",
+      "telefono": "555-1414",
+      "experiencia": "10 años en Arquitectura Cloud",
+      "edad": 40
+    },
+    {
+      "id_usuario": "USR000N4",
+      "direccion": "Avenida Baja 222",
+      "telefono": "555-1515",
+      "experiencia": "4 años en iOS (Swift)",
+      "edad": 29
+    },
+    {
+      "id_usuario": "USR000O5",
+      "direccion": "Calle Nueva 333",
+      "telefono": "555-1616",
+      "experiencia": "4 años en Android (Kotlin)",
+      "edad": 30
+    }
+  ]
+}
