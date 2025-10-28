@@ -1,10 +1,9 @@
 import './Dashboard.css'
-const Dashboard = () => {
-    return(
+const Dashboard =() =>{
+    return (
         <section>
-            <h1>Dashboard</h1>
+            <h2>Dasboard</h2>
         </section>
-    )   
+    )
 }
-
-export default Dashboard
+export default Dashboard;

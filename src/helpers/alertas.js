@@ -7,14 +7,15 @@ export function alertaGeneral(title, text, icon) {
   });
 }
 
-export function alertaRedireccion(title, icon, path, redirecion) {
+export function alertaRedireccion(title, icon, path, redireccion) {
   let timerInterval;
   Swal.fire({
     title,
-    html: "Será redireccionado en <b></b> milisegundos.",
+    html: "Sera redireccionado en <b></b> milisegundos.",
     timer: 2000,
     timerProgressBar: true,
     icon,
+
     didOpen: () => {
       Swal.showLoading();
       const timer = Swal.getPopup().querySelector("b");
@@ -24,7 +25,7 @@ export function alertaRedireccion(title, icon, path, redirecion) {
     },
     willClose: () => {
       clearInterval(timerInterval);
-      redirecion(path)
+      redireccion(path)
     },
   });
 }

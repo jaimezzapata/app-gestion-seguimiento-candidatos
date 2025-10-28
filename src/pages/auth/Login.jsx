@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
 import "./Login.css";
+import { Link, useNavigate } from "react-router-dom";
 import { alertaGeneral, alertaRedireccion } from "../../helpers/alertas";
 import { generarToken, guardarLocalStorage } from "../../helpers/funciones";
 
@@ -35,7 +35,7 @@ function Login() {
                   class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg block w-full p-2.5"
                   id="username"
                   type="text"
-                  onChange={(e) => setUsuario(e.target.value)}
+                  onChange={(e) => setUser(e.target.value)}
                 />
               </div>
               <div>
@@ -47,12 +47,12 @@ function Login() {
                   placeholder="••••••••"
                   id="password"
                   type="password"
-                  onChange={(e) => setContrasena(e.target.value)}
+                  onChange={(e) => setPassword(e.target.value)}
                 />
               </div>
 
               <button
-                onClick={iniciarSesion}
+              onClick={iniciarSesion}
                 class="w-full bg-blue-500 hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center  focus:ring-blue-800 text-white"
                 type="button"
               >

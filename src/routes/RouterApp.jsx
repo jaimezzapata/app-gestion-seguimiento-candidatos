@@ -22,3 +22,4 @@ export let RouterApp = [
     element: <Home />,
   },
 ];
+
