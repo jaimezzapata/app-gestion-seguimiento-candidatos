@@ -2,17 +2,17 @@ import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import "./Login.css";
 import { alertaGeneral, alertaRedireccion } from "../../helpers/alertas";
-import { generarToken } from "../../helpers/funciones";
-
-console.log(generarToken())
+import { generarToken, guardarLocalStorage } from "../../helpers/funciones";
 
 function Login() {
   const [usuario, setUsuario] = useState("");
   const [contrasena, setContrasena] = useState("");
-  let redireccion = useNavigate()
+  let redireccion = useNavigate();
   function iniciarSesion() {
     if (usuario == "admin" && contrasena == "1234") {
-      alertaRedireccion("Bienvenido", "success", "/dashboard", redireccion)
+      let token = generarToken();
+      guardarLocalStorage("token", token);
+      alertaRedireccion("Bienvenido", "success", "/dashboard", redireccion);
     } else {
       alertaGeneral("Error", "Error de credenciales", "error");
     }
