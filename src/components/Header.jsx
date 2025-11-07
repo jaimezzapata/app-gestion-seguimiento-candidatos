@@ -191,6 +191,7 @@ const Header = () => {
           </div>
         </div>
         <button onClick={cerrarSesion} className="nav-link">Cerrar Sesión</button>
+        
       </div>
     </header>
   );
