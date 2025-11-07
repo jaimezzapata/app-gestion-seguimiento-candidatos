@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import "./Login.css";
 import { alertaGeneral, alertaRedireccion } from "../../helpers/alertas";
@@ -8,20 +8,27 @@ import { endPoints } from "../../api/api-services";
 function Login() {
   const [usuario, setUsuario] = useState("");
   const [contrasena, setContrasena] = useState("");
-  const [usuarios, setUsuarios] = useState([])
+  const [usuarios, setUsuarios] = useState([]);
   let redireccion = useNavigate();
 
-  function getUsuarios(){
+  function getUsuarios() {
     /* axios o fetch */
     fetch(endPoints.usuarios)
-    .then((response)=> console.log(response.json()))    
+      .then((response) => response.json())
+      .then((data) => setUsuarios(data));
   }
-  getUsuarios()
+
+  useEffect(() => {
+    getUsuarios();
+  }, []);
+  console.log(usuarios);
 
   function iniciarSesion() {
-    if (usuario == "admin" && contrasena == "1234") {
+    let auth = usuarios.find((item)=> item.contraseña == contrasena && item.correo == usuario);
+    if (auth) {
       let token = generarToken();
       guardarLocalStorage("token", token);
+      guardarLocalStorage("usuario", auth)
       alertaRedireccion("Bienvenido", "success", "/dashboard", redireccion);
     } else {
       alertaGeneral("Error", "Error de credenciales", "error");
