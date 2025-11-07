@@ -2,8 +2,6 @@ import Header from "../../components/Header";
 import "./Candidatos.css";
 
 const Candidatos = () => {
-  const candidatos = [];
-
   return (
     <div>
       <Header />

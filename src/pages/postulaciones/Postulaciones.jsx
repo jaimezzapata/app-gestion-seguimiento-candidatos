@@ -2,10 +2,9 @@ import Header from "../../components/Header";
 import "./Postulaciones.css";
 
 const Postulaciones = () => {
-  const postulaciones = [];
 
   return (
-    <>
+    <div>
       <Header />
       <div className="postulaciones-container">
         <div className="postulaciones-header">
@@ -101,7 +100,7 @@ const Postulaciones = () => {
           </table>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

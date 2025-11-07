@@ -2,95 +2,9 @@ import Header from "../../components/Header";
 import "./Vacantes.css";
 
 const Vacantes = () => {
-  const vacantes = [
-    {
-      id: "VAC00001",
-      descripcion:
-        "Desarrollador Frontend con experiencia en React y TypeScript.",
-      salario: 50000,
-      fecha_maxima_postulacion: "2025-11-30",
-      fecha_publicacion: "2025-10-20",
-      puesto: "Frontend Developer Sr.",
-      requisitos: "React, TypeScript, Redux, 5+ años exp.",
-    },
-    {
-      id: "VAC00002",
-      descripcion:
-        "Desarrollador Backend especialista en Node.js y microservicios.",
-      salario: 55000,
-      fecha_maxima_postulacion: "2025-11-25",
-      fecha_publicacion: "2025-10-15",
-      puesto: "Backend Developer Sr.",
-      requisitos: "Node.js, Express, AWS, Microservicios, 5+ años exp.",
-    },
-    {
-      id: "VAC00003",
-      descripcion:
-        "QA Automatizador para pruebas funcionales y de rendimiento.",
-      salario: 40000,
-      fecha_maxima_postulacion: "2025-12-01",
-      fecha_publicacion: "2025-10-21",
-      puesto: "QA Automation Engineer",
-      requisitos: "Selenium, Cypress, Jest, 3+ años exp.",
-    },
-    {
-      id: "VAC00004",
-      descripcion: "Diseñador UI/UX enfocado en aplicaciones móviles.",
-      salario: 42000,
-      fecha_maxima_postulacion: "2025-11-15",
-      fecha_publicacion: "2025-10-10",
-      puesto: "UI/UX Designer",
-      requisitos: "Figma, Sketch, Adobe XD, 3+ años exp.",
-    },
-    {
-      id: "VAC00005",
-      descripcion: "Project Manager con metodologías ágiles (Scrum/Kanban).",
-      salario: 60000,
-      fecha_maxima_postulacion: "2025-11-20",
-      fecha_publicacion: "2025-10-12",
-      puesto: "Project Manager",
-      requisitos: "Scrum Master Cert., Jira, 4+ años exp.",
-    },
-    {
-      id: "VAC00006",
-      descripcion:
-        "Analista de Datos Jr. para equipo de Business Intelligence.",
-      salario: 30000,
-      fecha_maxima_postulacion: "2025-12-05",
-      fecha_publicacion: "2025-10-21",
-      puesto: "Data Analyst Jr.",
-      requisitos: "SQL, Power BI, Excel avanzado, 1+ años exp.",
-    },
-    {
-      id: "VAC00007",
-      descripcion: "DevOps Engineer para gestión de infraestructura en Azure.",
-      salario: 65000,
-      fecha_maxima_postulacion: "2025-11-30",
-      fecha_publicacion: "2025-10-20",
-      puesto: "DevOps Engineer Sr.",
-      requisitos: "Azure, Kubernetes, Terraform, CI/CD, 5+ años exp.",
-    },
-    {
-      id: "VAC00008",
-      descripcion: "Desarrollador Frontend Jr. con conocimientos en Angular.",
-      salario: 28000,
-      fecha_maxima_postulacion: "2025-11-18",
-      fecha_publicacion: "2025-10-18",
-      puesto: "Frontend Developer Jr.",
-      requisitos: "Angular, JavaScript, HTML, CSS, 1+ años exp.",
-    },
-  ];
-
-  const formatearSalario = (salario) => {
-    return new Intl.NumberFormat("es-ES", {
-      style: "currency",
-      currency: "EUR",
-      minimumFractionDigits: 0,
-    }).format(salario);
-  };
 
   return (
-    <>
+    <div>
       <Header />
       <div className="vacantes-container">
         <div className="vacantes-header">
@@ -221,7 +135,7 @@ const Vacantes = () => {
           </table>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
