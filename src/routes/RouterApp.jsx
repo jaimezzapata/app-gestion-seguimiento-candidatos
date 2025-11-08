@@ -36,3 +36,4 @@ export let RouterApp = [
     element: <RutaProtegida componente={<Postulaciones />} />,
   }
 ];
+
